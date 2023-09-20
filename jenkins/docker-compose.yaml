@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   jenkins:
+    container_name: jenkins
     image: jenkins/jenkins:lts-jdk11
     restart: always
     ports:
